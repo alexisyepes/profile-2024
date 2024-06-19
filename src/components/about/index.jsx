@@ -5,7 +5,6 @@ import Experience from "./Experience"
 import PersonalInfo from "./PersonalInfo"
 import Skills from "./Skills"
 // import cv from "../../../public/assets/img/cv.webp"
-import cv from "../../../public/assets/img/resume.webp"
 import heroImgMobile from "../../../public/assets/img/hero/profile_photo.jpg"
 import Image from "next/image"
 
