@@ -127,7 +127,7 @@ const HomeDark = () => {
 									{/* Left Side Ends */}
 
 									{/*  Contact Form Starts  */}
-									<div className="col-12 col-lg-8">
+									<div className="col-12 col-lg-8 d-none d-lg-block">
 										<Image
 											src={"/assets/img/hero/profile_photo.jpg"}
 											className="img-fluid"

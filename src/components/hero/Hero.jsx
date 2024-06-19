@@ -7,7 +7,7 @@ import Image from "next/image"
 
 const heroContent = {
 	heroImage: "/assets/img/hero/profile_photo.jpg",
-	heroMobileImage: heroImgMobile,
+	heroMobileImage: "/assets/img/hero/profile_photo.jpg",
 	heroTitleName: "Alex Sanabria",
 	heroDesignation: "Full Stack Developer",
 	heroDescriptions: `I'm a full-stack developer from Cambridge,
@@ -36,6 +36,8 @@ const Hero = () => {
 							src={heroContent.heroMobileImage}
 							className="img-fluid main-img-mobile d-sm-block d-lg-none"
 							alt="hero man"
+							width={200}
+							height={100}
 							// style={{width:'100%',height:'100%'}}
 						/>
 						<h1 className="text-uppercase poppins-font">
