@@ -7,6 +7,7 @@ import Skills from "./Skills"
 // import cv from "../../../public/assets/img/cv.webp"
 import heroImgMobile from "../../../public/assets/img/hero/profile_photo.jpg"
 import Image from "next/image"
+import Learning from "./Learning"
 
 const index = () => {
 	return (
@@ -73,6 +74,17 @@ const index = () => {
 					<Skills />
 				</div>
 				{/* Skills Ends */}
+
+				{/* Learning Starts */}
+				<div className="row">
+					<div className="col-12">
+						<h3 className="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-start text-sm-center custom-title ft-wt-600">
+							Current Training
+						</h3>
+					</div>
+					<Learning />
+				</div>
+				{/* Learning Ends */}
 
 				<hr className="separator mt-1" />
 
