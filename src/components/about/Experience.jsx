@@ -11,7 +11,7 @@ Collaborated with cross-functional teams to enhance project functionality and us
 Implemented effective problem-solving strategies to address project challenges and issues.`,
 	},
 	{
-		year: "Jan 2021 - Nov 2021",
+		year: "Jan 2021 - Dec 2021",
 		position: "Full-Stack Developer",
 		compnayName: "Isara Corp. (Through Aerotek / AcTalent)",
 		details: `Contributed to the development of a product called Advance, used to scan, find, and remediate security vulnerabilities in systems and networks.`,
