@@ -1,6 +1,10 @@
-import React from "react"
-
 const experienceContent = [
+	{
+		year: "Jul 2024 - Present",
+		position: "Senior Software Engineer",
+		compnayName: "Enable App",
+		details: `Collaborated on multiple projects, contributing to the development, optimization, and maintenance of software solutions. Worked closely with cross-functional teams to deliver high-quality, scalable applications. Participated in code reviews, debugging, and performance improvements to enhance system efficiency.`,
+	},
 	{
 		year: "Dec 2021 - June 2024",
 		position: "Lead Full-Stack Developer",
