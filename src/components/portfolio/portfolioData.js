@@ -1,5 +1,8 @@
 import Image1 from "../../../public/assets/img/portfolio/project-01.png"
 import Image2 from "../../../public/assets/img/portfolio/project-02.png"
+import Image2a from "../../../public/assets/img/portfolio/project-02_a.png"
+import Image2b from "../../../public/assets/img/portfolio/project-02_b.png"
+import Image2c from "../../../public/assets/img/portfolio/project-02_c.png"
 import Image3 from "../../../public/assets/img/portfolio/project-03.png"
 import Image4 from "../../../public/assets/img/portfolio/project-04.png"
 import Image5 from "../../../public/assets/img/portfolio/project-05.png"
@@ -19,7 +22,7 @@ const PortfolioData = [
 			{
 				project: "website",
 				client: "Elite Digital",
-				language: "NextJs, Tailwind-CSS",
+				language: "NextJs, Tailwind-CSS, Wordpress",
 				preview: "www.elitedigitalagency.com/",
 				link: "https://elitedigitalagency.com/",
 			},
@@ -29,13 +32,16 @@ const PortfolioData = [
 		id: 2,
 		type: "full stack project",
 		image: Image2,
-		tag: ["full-stack"],
+		image2: Image2a,
+		image3: Image2b,
+		image4: Image2c,
+		tag: ["full-stack", "e-commerce"],
 		delayAnimation: "100",
 		modalDetails: [
 			{
 				project: "Web Application",
 				client: "Amazing Pet Groming",
-				language: "React, Javascript, Tailwind-CSS, Html, Node, MySql",
+				language: "NextJs, Tailwind-CSS, Html, Node, MySql, Stripe",
 				preview: "www.amazingpetgrooming.ca",
 				link: "https://www.amazingpetgrooming.ca",
 			},

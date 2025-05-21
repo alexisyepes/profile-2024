@@ -1,5 +1,4 @@
 import Image from "next/image"
-import React from "react"
 import CloseImg from "../../../../../public/assets/img/cancel.svg"
 import PortfolioData from "../../portfolioData"
 
@@ -55,6 +54,21 @@ const ModalTwo = ({ modalId, setGetModal }) => {
 							</div>
 							<figure className="modal__img">
 								<Image src={item.image} alt="portfolio project demo" />
+								<Image
+									className="mt-2"
+									src={item.image2}
+									alt="portfolio project demo"
+								/>
+								<Image
+									className="mt-2"
+									src={item.image3}
+									alt="portfolio project demo"
+								/>
+								<Image
+									className="mt-2"
+									src={item.image4}
+									alt="portfolio project demo"
+								/>
 							</figure>
 
 							<button
