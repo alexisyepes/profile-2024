@@ -42,7 +42,7 @@ const index = () => {
 							<div className="col-12 mt-1">
 								<a
 									className="button"
-									href="/assets/img/alex-resume-2025.pdf"
+									href="/assets/img/new-alex-resume-2025.pdf"
 									download
 								>
 									<span className="button-text">Download Resume</span>

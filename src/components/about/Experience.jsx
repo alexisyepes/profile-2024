@@ -1,6 +1,6 @@
 const experienceContent = [
 	{
-		year: "Jul 2024 - Present",
+		year: "Jul 2024 - Aug 2025",
 		position: "Senior Software Engineer",
 		compnayName: "Enable App",
 		details: `Collaborated on multiple projects, contributing to the development, optimization, and maintenance of software solutions. Worked closely with cross-functional teams to deliver high-quality, scalable applications. Participated in code reviews, debugging, and performance improvements to enhance system efficiency.`,
