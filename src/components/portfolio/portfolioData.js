@@ -1,3 +1,6 @@
+import Image0 from "../../../public/assets/img/portfolio/project-00.png"
+import Image0a from "../../../public/assets/img/portfolio/project-00_a.png"
+import Image0b from "../../../public/assets/img/portfolio/project-00_b.png"
 import Image1 from "../../../public/assets/img/portfolio/project-01.png"
 import Image2 from "../../../public/assets/img/portfolio/project-02.png"
 import Image2a from "../../../public/assets/img/portfolio/project-02_a.png"
@@ -12,6 +15,24 @@ import Image8 from "../../../public/assets/img/portfolio/project-08.png"
 import Image9 from "../../../public/assets/img/portfolio/project-09.png"
 
 const PortfolioData = [
+	{
+		id: 0,
+		type: "Saas Platform",
+		image: Image0,
+		image2: Image0a,
+		image3: Image0b,
+		tag: ["website"],
+		delayAnimation: "100",
+		modalDetails: [
+			{
+				project: "sass",
+				client: "Personal Project",
+				language: "Node, Express, MySql, NextJs, React, Tailwind-CSS",
+				preview: "https://resume-builder-virid-xi.vercel.app/",
+				link: "https://resume-builder-virid-xi.vercel.app/",
+			},
+		],
+	},
 	{
 		id: 1,
 		type: "Website project",
