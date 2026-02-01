@@ -1,9 +1,9 @@
-import React, { useState } from "react"
-import Modal from "react-modal"
-import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg"
-import cancelImg from "../../../public/assets/img/cancel.svg"
-import AboutMain from "../about"
-import Image from "next/image"
+import React, { useState } from "react";
+import Modal from "react-modal";
+import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
+import cancelImg from "../../../public/assets/img/cancel.svg";
+import AboutMain from "../about";
+import Image from "next/image";
 
 const heroContent = {
 	heroImage: "/assets/img/hero/profile_photo.jpg",
@@ -15,12 +15,12 @@ const heroContent = {
 										love solving problems.
 										I'm also fully bilingual in English and Spanish`,
 	heroBtn: "more about me",
-}
+};
 
 const Hero = () => {
-	const [isOpen, setIsOpen] = useState(false)
+	const [isOpen, setIsOpen] = useState(false);
 	function toggleModalOne() {
-		setIsOpen(!isOpen)
+		setIsOpen(!isOpen);
 	}
 
 	return (
@@ -75,7 +75,7 @@ const Hero = () => {
 								<h1>
 									ABOUT <span>ME</span>
 								</h1>
-								<span className="title-bg">Resume</span>
+								<span className="title-bg">A l e x</span>
 							</div>
 							{/* End title */}
 							<AboutMain />
@@ -86,7 +86,7 @@ const Hero = () => {
 			</Modal>
 			{/* End  Modal for About More */}
 		</>
-	)
-}
+	);
+};
 
-export default Hero
+export default Hero;

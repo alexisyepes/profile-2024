@@ -1,16 +1,16 @@
-import React, { useEffect } from "react"
-import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
-import Hero from "../components/hero/Hero"
-import AboutMain from "../components/about"
-import Wrapper from "../layout/wrapper"
-import SEO from "../components/Seo"
-import Portfolio from "../components/portfolio/Portfolio"
-import Address from "../components/Address"
-import Social from "../components/Social"
-import Contact from "../components/Contact"
-import Blog from "../components/blog/Blog"
-import SwitchDark from "../components/switch/SwitchDark"
-import Image from "next/image"
+import React, { useEffect } from "react";
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
+import Hero from "../components/hero/Hero";
+import AboutMain from "../components/about";
+import Wrapper from "../layout/wrapper";
+import SEO from "../components/Seo";
+import Portfolio from "../components/portfolio/Portfolio";
+import Address from "../components/Address";
+import Social from "../components/Social";
+import Contact from "../components/Contact";
+import Blog from "../components/blog/Blog";
+import SwitchDark from "../components/switch/SwitchDark";
+import Image from "next/image";
 
 const menuItem = [
 	{ icon: "fa-home", menuName: "Home" },
@@ -18,12 +18,13 @@ const menuItem = [
 	{ icon: "fa-briefcase", menuName: "Portfolio" },
 	{ icon: "fa-envelope-open", menuName: "Contact" },
 	// { icon: "fa-comments", menuName: "Blog" },
-]
+];
 
 const HomeDark = () => {
 	useEffect(() => {
-		document.querySelector("body").classList.remove("rtl")
-	}, [])
+		// document.querySelector("body").classList.remove("rtl");
+		document.querySelector("body").classList.add("light");
+	}, []);
 	return (
 		<Wrapper>
 			<SEO pageTitle={"Home Dark"} />
@@ -174,7 +175,7 @@ const HomeDark = () => {
 				</Tabs>
 			</div>
 		</Wrapper>
-	)
-}
+	);
+};
 
-export default HomeDark
+export default HomeDark;

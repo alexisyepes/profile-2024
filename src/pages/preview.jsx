@@ -1,9 +1,9 @@
-import Image from "next/image"
-import Link from "next/link"
-import dark from "../../public/assets/img/intro/dark.jpg"
-import rtl from "../../public/assets/img/intro/rtl.jpg"
-import SEO from "../components/Seo"
-import HomeDark from "./home-dark"
+import Image from "next/image";
+import Link from "next/link";
+import dark from "../../public/assets/img/intro/dark.jpg";
+import rtl from "../../public/assets/img/intro/rtl.jpg";
+import SEO from "../components/Seo";
+import HomeDark from "./home-dark";
 
 const preview = () => {
 	const previewDemo = [
@@ -19,14 +19,14 @@ const preview = () => {
 			routerPath: "/home-rtl",
 			delayAnimation: "",
 		},
-	]
+	];
 
 	return (
 		<>
 			<SEO pageTitle={"Preview"} />
 			<HomeDark />
 		</>
-	)
-}
+	);
+};
 
-export default preview
+export default preview;
