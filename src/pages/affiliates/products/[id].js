@@ -88,7 +88,8 @@ export default function ProductDetailPage() {
 					</h1>
 
 					<p className="text-gray-600 mb-8">
-						Sorry, the product with ID {productId || "unknown"} doesn't exist.
+						Sorry, the product with ID {productId || "unknown"} doesn&apos;t
+						exist.
 					</p>
 
 					<div className="space-y-4">
@@ -368,7 +369,7 @@ export default function ProductDetailPage() {
 						{/* Features */}
 						<div className="mb-8">
 							<h3 className="text-xl font-bold text-gray-900 mb-4">
-								What's Included
+								What&apos;s Included
 							</h3>
 							<div className="grid grid-cols-1 md:grid-cols-2 gap-3">
 								{features.map((feature, index) => (

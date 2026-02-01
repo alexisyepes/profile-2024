@@ -10,6 +10,7 @@ import { IoTime } from "react-icons/io5";
 import { BsLightningCharge } from "react-icons/bs";
 import { GiLaptop } from "react-icons/gi";
 import Link from "next/link";
+import Image from "next/image";
 
 const ProductCard = ({ product }) => {
 	const isDigitalProduct = product.marketplace === "Digital Products";
@@ -55,9 +56,11 @@ const ProductCard = ({ product }) => {
 			{/* Product Image - Clickable for details */}
 			<Link href={`/affiliates/products/${product.id}`}>
 				<div className="h-48 overflow-hidden bg-gray-100 relative cursor-pointer">
-					<img
+					<Image
 						src={product.image}
 						alt={product.name}
+						width={400}
+						height={300}
 						className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
 					/>
 					{/* Product Type Indicator */}

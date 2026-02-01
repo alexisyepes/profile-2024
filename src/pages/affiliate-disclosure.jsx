@@ -38,8 +38,8 @@ export default function AffiliateDisclosure() {
 							Affiliate Disclosure
 						</h1>
 						<p className="text-gray-600 text-lg">
-							Transparency is our priority. Here's how our affiliate program
-							works.
+							Transparency is our priority. Here&apos;s how our affiliate
+							program works.
 						</p>
 					</div>
 
