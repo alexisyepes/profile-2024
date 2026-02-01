@@ -1,19 +1,20 @@
-import Aos from "aos"
-import { useEffect } from "react"
-import "../styles/index.scss"
-import dynamic from "next/dynamic"
-import ContextProvider from "../Context/ContextProvider"
+import "../styles/globals.css";
+import Aos from "aos";
+import { useEffect } from "react";
+import "../styles/index.scss";
+import dynamic from "next/dynamic";
+import ContextProvider from "../Context/ContextProvider";
 
 const AnimatedCursor = dynamic(() => import("react-animated-cursor"), {
 	ssr: false,
-})
+});
 
 function MyApp({ Component, pageProps }) {
 	useEffect(() => {
 		Aos.init({
 			duration: 1200,
-		})
-	}, [])
+		});
+	}, []);
 	return (
 		<>
 			<AnimatedCursor
@@ -28,7 +29,7 @@ function MyApp({ Component, pageProps }) {
 				<Component {...pageProps} />
 			</ContextProvider>
 		</>
-	)
+	);
 }
 
-export default MyApp
+export default MyApp;
